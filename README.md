@@ -39,7 +39,7 @@
 
 Κατεβάστε το repository στον υπολογιστή σας:
 ```bash
-git clone https://github.com/lampros-tr/nt-physics-book.git
+git clone https://github.com/nullsequitur/nt-physics-book.git
 ```
 και μεταβείτε στον φάκελο
 ``` bash
