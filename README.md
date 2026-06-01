@@ -39,11 +39,11 @@
 
 Κατεβάστε το repository στον υπολογιστή σας:
 ```bash
-git clone https://github.com/nullsequitur/nt-physics-book.git
+git clone https://github.com/nullsequitur/physics-book-collab.git
 ```
 και μεταβείτε στον φάκελο
 ``` bash
-cd nt-physics-book
+cd physics-book-collab
 ```
 
 ### Δημιουργία νέου κλάδου (branch)
@@ -69,7 +69,7 @@ git add ta_arxeia_mou
 ```
 όπου κάνετε αντικατάσταση του placeholder `ta_arxeia_mou` με το σωστό όνομα/path των αρχείων σας.
 
-Π.χ., αν βρίσκεστε στον φάκελο `nt-physics-book`:
+Π.χ., αν βρίσκεστε στον φάκελο `physics-book-collab`:
 ``` bash
 git add book/chapters/ph01234.tex python-scripts/ph01234.py book/figures/ph01234.png 
 ```
