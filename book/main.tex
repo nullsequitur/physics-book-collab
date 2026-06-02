@@ -1,0 +1,66 @@
+%! TEX program = xelatex
+%
+% Compile with xelatex
+%
+\documentclass[a4paper,12pt]{book}
+
+% Packages
+
+%
+\usepackage{fontspec}
+\usepackage[english, greek]{babel} % Η τελευταία γλώσσα είναι η βασική (Ελληνικά)
+
+% Fonts
+\setmainfont{Liberation Serif}
+%\setmainfont{Times New Roman}
+%\setmonofont{Courier New}
+%\setmonofont{Fira Code}
+
+% Math
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{siunitx}
+
+% Figures
+\usepackage{graphicx}
+\usepackage{float} % For [H] flag
+\graphicspath{{./figures/}} % path for figures
+
+% Colors
+\usepackage{xcolor}
+
+% hyperref
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linktocpage=true,
+    linkbordercolor=blue,
+    filebordercolor=magenta,
+    urlbordercolor=cyan,
+}
+
+\usepackage{titling}
+\usepackage{changepage}
+
+%
+
+
+\begin{document}
+
+\frontmatter
+
+% Σελίδα εξωφύλλου
+\input{chapters/title-page}
+
+% Πρόλογος
+\input{chapters/abstract}
+
+% Περιεχόμενα
+\tableofcontents
+
+\mainmatter
+
+% Student chapters
+% Note: please insert a new line below, with the name of the tex file containing your chapter.
+% For example: \input{chapters/ph01234}
+
+\end{document}
